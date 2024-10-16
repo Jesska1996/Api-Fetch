@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>API Fetch </title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Api Fetch</h1>
+
+  <div id="contenedor" class="contenedor-tabla">
+    <table id="tabla-usuarios" class="tabla">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Nombre</th>
+          <th>Email</th>
+          <th>Avatar</th>
+        </tr>
+      </thead>
+      <tbody id="cuerpo-tabla">
+        <!-- Aquí se llenarán las filas dinámicamente -->
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Controles de paginación -->
+  <div class="paginacion">
+    <button id="boton-anterior" disabled>&lt; Anterior</button>
+    <span id="indicador-pagina">Página 1</span>
+    <button id="boton-siguiente">Siguiente &gt;</button>
+  </div>
+
+  <!-- Spinner para mostrar carga -->
+  <p id="spinner" class="spinner">Cargando...</p>
+
+  <script src="script.js"></script>
+</body>
+</html>

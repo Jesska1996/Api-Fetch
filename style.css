@@ -1,0 +1,31 @@
+.tabla {
+width: 100%;
+margin-top: 20px;
+background-color: #7b6385;
+}
+  
+.tabla th, .tabla td {
+border: 1px solid #4b0a55;
+padding: 8px;
+text-align: center;
+}
+  
+.tabla th {
+background-color: #a6ebef;
+font-weight: bold;
+}
+  
+.paginacion {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10px;
+gap: 10px;
+}
+  
+.spinner {
+display: none;
+text-align: center;
+margin-top: 10px;
+font-weight: bold;
+}
